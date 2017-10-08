@@ -1,0 +1,19 @@
+<h1 id="enterInfo">Your Shop</h1>
+
+<button type="submit" id="submitBtn" href="/user/items/create">Add items to your shop.</button>
+
+ <div class="row">
+                  {{#each items}}
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src={{this.imageLink}} alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">${{this.value}}</h4>
+                                <h4><a href="#">{{this.itemName}}</a>
+                                </h4>
+                                <p>{{this.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>

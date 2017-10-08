@@ -1,0 +1,67 @@
+{{!--<h1 id="masthead">Your Shop</h1>
+<h2>Add an item to your SwapShop!</h2>--}}
+
+<header class="intro-header" style="background-image: url('/images/records.png')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1 id="enterInfo">Add an item to your shop.</h1>
+                        <a href="/" id="submitBtn">Home</a>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<div class="row ">
+    <div class="col-sm-4"></div>
+  <div class="col-sm-4 userForm">
+      <form class="create-update-form" action="/item/create" method="post">
+        <div class="form-group">
+          {{!--<label for="UserId">User Id</label><br>
+          <input type="text" id="userId" name="UserId"><br>--}}
+          <label for="itemName">Name of Item:</label><br>
+          <input type="text" id="itemName" name="itemName"><br>
+          <label for="description">Description:</label><br>
+          <input type="text" id="description" name="description"><br>
+          <label for="imageLink">Image Link:</label><br>
+          <input type="text" id="imageLink" name="imageLink"><br>
+          <label for="active">Active?</label><br>
+          <input type="radio" name="active" value="true">Yes<br>
+          <input type="radio" name="active" value="false">No<br>
+          {{!--<label for="for_swap">For swap?</label><br>
+          <input type="radio" name="for_swap" value="true">Yes<br>
+          <input type="radio" name="for_swap" value="false">No<br>
+          <label for="for_sale">For sale?</label><br>
+          <input type="radio" name="for_sale" value="true">Yes<br>
+          <input type="radio" name="for_sale" value="false">No<br>--}}
+          <label for="value">Value (in dollars):</label><br>
+          <input type="text" id="value" name="value"><br>
+          <label for="public">Public?</label><br>
+          <input type="radio" name="public" value="true">Yes<br>
+          <input type="radio" name="public" value="false">No<br>
+        </div>
+        <button type="submit" id="submitBtn" href="/user">Add!</button>
+      </form>
+  </div>
+</div>
+
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+                    <p>Copyright &copy; SwapShop 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
