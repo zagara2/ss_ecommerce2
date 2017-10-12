@@ -19,6 +19,7 @@ Began as a collaborative effort, but the group fell through due to personal issu
 * Node.js
 * Passport.js
 * ES6
+* Bootstrap
 
 ## Future Plans ("icing on the cake" features)
 * User Ratings (5-star) and reviews
