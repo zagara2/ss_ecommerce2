@@ -3,7 +3,7 @@
 ## What is it?
 
 SwapShop is a bartering-based ecommerce site for collectors.
-Unlike other ecommerce sites, which center around monetary transaction, SwapShop allows users to arrange bartering exchanges between themselves for items listed on their profiles. Users can even have wish lists of desired collectables, and receive notifications when an item on their wish list is listed by another user.
+Unlike other ecommerce sites, which center around monetary transaction, SwapShop allows users to arrange trading exchanges between themselves for items listed on their profiles. Users can even have wish lists of desired collectables, and receive notifications when an item on their wish list is listed by another user.
 
 Began as a collaborative effort, but the group fell through due to personal issues. Thus, I am now taking the project up on my own to see it through to completion.   
 
